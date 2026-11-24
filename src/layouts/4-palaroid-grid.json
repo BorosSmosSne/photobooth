@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "id": "polaroid-grid",
+  "name": "Polaroids",
+  "canvas": { "width": 1200, "height": 1300 },
+  "slots": [
+    { "x": 60, "y": 70, "w": 500, "h": 375, "radius": 4 },
+    { "x": 640, "y": 70, "w": 500, "h": 375, "radius": 4 },
+    { "x": 60, "y": 595, "w": 500, "h": 375, "radius": 4 },
+    { "x": 640, "y": 595, "w": 500, "h": 375, "radius": 4 }
+  ],
+  "elements": [
+    { "type": "rect", "layer": "under", "x": 30, "y": 40, "w": 560, "h": 495, "radius": 8, "fill": "mat" },
+    { "type": "rect", "layer": "under", "x": 610, "y": 40, "w": 560, "h": 495, "radius": 8, "fill": "mat" },
+    { "type": "rect", "layer": "under", "x": 30, "y": 565, "w": 560, "h": 495, "radius": 8, "fill": "mat" },
+    { "type": "rect", "layer": "under", "x": 610, "y": 565, "w": 560, "h": 495, "radius": 8, "fill": "mat" },
+    { "type": "text", "layer": "over", "content": "{date}", "x": 600, "y": 1180, "size": 48, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}

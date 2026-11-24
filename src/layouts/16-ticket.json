@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "ticket",
+  "name": "Ticket",
+  "canvas": { "width": 700, "height": 1950 },
+  "slots": [
+    { "x": 90, "y": 170, "w": 520, "h": 390, "radius": 8 },
+    { "x": 90, "y": 590, "w": 520, "h": 390, "radius": 8 },
+    { "x": 90, "y": 1010, "w": 520, "h": 390, "radius": 8 },
+    { "x": 90, "y": 1430, "w": 520, "h": 390, "radius": 8 }
+  ],
+  "elements": [
+    { "type": "text", "layer": "over", "content": "ADMIT ONE", "x": 350, "y": 90, "size": 64, "align": "center", "color": "accent", "weight": "bold" },
+    { "type": "rect", "layer": "over", "x": 90, "y": 130, "w": 520, "h": 4, "fill": "accent" },
+    { "type": "text", "layer": "over", "content": "{date}", "x": 350, "y": 1890, "size": 40, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}

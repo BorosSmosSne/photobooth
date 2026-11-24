@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "big-small",
+  "name": "Big + Small",
+  "canvas": { "width": 1200, "height": 1300 },
+  "slots": [
+    { "x": 40, "y": 40, "w": 1120, "h": 840, "radius": 16 },
+    { "x": 40, "y": 900, "w": 360, "h": 270, "radius": 12 },
+    { "x": 420, "y": 900, "w": 360, "h": 270, "radius": 12 },
+    { "x": 800, "y": 900, "w": 360, "h": 270, "radius": 12 }
+  ],
+  "elements": [
+    { "type": "text", "layer": "over", "content": "{date}", "x": 600, "y": 1240, "size": 44, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}

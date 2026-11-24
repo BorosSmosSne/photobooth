@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "strip-1x4",
+  "name": "Classic Strip",
+  "canvas": { "width": 600, "height": 1800 },
+  "slots": [
+    { "x": 40, "y": 40, "w": 520, "h": 390, "radius": 12 },
+    { "x": 40, "y": 450, "w": 520, "h": 390, "radius": 12 },
+    { "x": 40, "y": 860, "w": 520, "h": 390, "radius": 12 },
+    { "x": 40, "y": 1270, "w": 520, "h": 390, "radius": 12 }
+  ],
+  "elements": [
+    { "type": "text", "layer": "over", "content": "{date}", "x": 300, "y": 1735, "size": 36, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}

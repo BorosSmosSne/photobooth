@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "grid-2x2",
+  "name": "2x2 Grid",
+  "canvas": { "width": 1200, "height": 1100 },
+  "slots": [
+    { "x": 40, "y": 40, "w": 540, "h": 405, "radius": 16 },
+    { "x": 620, "y": 40, "w": 540, "h": 405, "radius": 16 },
+    { "x": 40, "y": 485, "w": 540, "h": 405, "radius": 16 },
+    { "x": 620, "y": 485, "w": 540, "h": 405, "radius": 16 }
+  ],
+  "elements": [
+    { "type": "text", "layer": "over", "content": "{date}", "x": 600, "y": 990, "size": 52, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}

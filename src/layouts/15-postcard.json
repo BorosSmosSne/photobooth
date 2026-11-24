@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "postcard",
+  "name": "Postcard",
+  "canvas": { "width": 1800, "height": 960 },
+  "slots": [
+    { "x": 60, "y": 60, "w": 540, "h": 405, "radius": 8 },
+    { "x": 630, "y": 60, "w": 540, "h": 405, "radius": 8 },
+    { "x": 60, "y": 495, "w": 540, "h": 405, "radius": 8 },
+    { "x": 630, "y": 495, "w": 540, "h": 405, "radius": 8 }
+  ],
+  "elements": [
+    { "type": "rect", "layer": "under", "x": 1560, "y": 60, "w": 180, "h": 220, "radius": 6, "fill": "accent" },
+    { "type": "text", "layer": "over", "content": "Hello!", "x": 1400, "y": 380, "size": 110, "align": "center", "color": "text", "weight": "bold" },
+    { "type": "text", "layer": "over", "content": "{date}", "x": 1400, "y": 490, "size": 44, "align": "center", "color": "text", "weight": "normal" },
+    { "type": "rect", "layer": "over", "x": 1260, "y": 650, "w": 480, "h": 5, "fill": "accent" },
+    { "type": "rect", "layer": "over", "x": 1260, "y": 740, "w": 480, "h": 5, "fill": "accent" },
+    { "type": "rect", "layer": "over", "x": 1260, "y": 830, "w": 480, "h": 5, "fill": "accent" }
+  ]
+}

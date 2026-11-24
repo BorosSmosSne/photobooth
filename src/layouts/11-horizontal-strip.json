@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "id": "horizontal-strip",
+  "name": "Horizontal",
+  "canvas": { "width": 2280, "height": 540 },
+  "slots": [
+    { "x": 40, "y": 40, "w": 520, "h": 390, "radius": 12 },
+    { "x": 600, "y": 40, "w": 520, "h": 390, "radius": 12 },
+    { "x": 1160, "y": 40, "w": 520, "h": 390, "radius": 12 },
+    { "x": 1720, "y": 40, "w": 520, "h": 390, "radius": 12 }
+  ],
+  "elements": [
+    { "type": "text", "layer": "over", "content": "{date}", "x": 1140, "y": 485, "size": 36, "align": "center", "color": "text", "weight": "bold" }
+  ]
+}
